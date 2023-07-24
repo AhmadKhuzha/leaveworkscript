@@ -21,16 +21,17 @@ function relative() {
     then
 	echo "now, bitch."
 	return
-    elif (( $delta < 60 )) 
-    then
-        echo "in "$delta" seconds"
-        return 
-    elif (( $delta < 3600))  # 45 * 60
-    then
-	    echo "in "$(( $delta / 60 ))" minute(s)"
-	return
+#    elif (( $delta < 60 )) 
+#    then
+#        echo "in "$delta" seconds"
+#        return 
+#    elif (( $delta < 3600))  # 45 * 60
+#    then
+#	    echo "in "$(( $delta / 60 ))" minute(s)"
+#	return
     else 
-	echo "in "$(( $delta / 3600 ))" hours";
+#	echo "in "$(( $delta / 3600 ))" hours";
+    	echo "in "`date -d@$delta -u +%H:%M:%S`;
     fi
 }
 
