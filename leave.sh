@@ -47,3 +47,5 @@ tleft=$(relative "$leaving_time")
 
 echo "I started this laptop at $ct_time, I can leave at $leaving_time. Which is $tleft."
 #echo "$leaving_time"
+
+
