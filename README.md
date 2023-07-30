@@ -10,3 +10,7 @@ and it counts 7:30 hours (edit it to suit your case)
 i used an alias with "watch -n 1" for a count down
 
 Enjoy.
+
+
+
+Example: ```I started this laptop at 2023-07-30 10:08 AM, I can leave at 2023-07-30 05:38 PM. Which is in 04:23:21.```
