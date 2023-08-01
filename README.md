@@ -24,7 +24,10 @@ Enjoy.
 - `vi ~/.bash_aliases`
 - add this to the end of the file: `alias leave='watch -n 0 /home/ahmad/Nextcloud/scripts/leave.sh'`
 - Save and close the file. `:wq`
+- `source ~/.bash_aliases`
 - `leave`
 
-- To exit use `CTRL` + `C`
-- `source ~/.bash_aliases`
+
+# To exit use 
+- `CTRL` + `C`
+
