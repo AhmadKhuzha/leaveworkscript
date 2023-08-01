@@ -7,7 +7,7 @@ It takes the last reboot as the startup time
 
 And it counts 7:30 hours (edit it to suit your case)
 
-I used an alias with "watch -n 1" for a count down
+I used an alias with "watch -n 0" for a count down
 
 Enjoy.
 
